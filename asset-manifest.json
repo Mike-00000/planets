@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/planets/static/css/main.392c5a97.css",
+    "main.js": "/planets/static/js/main.9772ad87.js",
+    "static/js/787.367c0aec.chunk.js": "/planets/static/js/787.367c0aec.chunk.js",
+    "static/media/overview_bg.avif": "/planets/static/media/overview_bg.324128866c1cc0e13eef.avif",
+    "static/media/accueil_bg.avif": "/planets/static/media/accueil_bg.d92b79144a6812a7099e.avif",
+    "index.html": "/planets/index.html",
+    "main.392c5a97.css.map": "/planets/static/css/main.392c5a97.css.map",
+    "main.9772ad87.js.map": "/planets/static/js/main.9772ad87.js.map",
+    "787.367c0aec.chunk.js.map": "/planets/static/js/787.367c0aec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.392c5a97.css",
+    "static/js/main.9772ad87.js"
+  ]
+}
