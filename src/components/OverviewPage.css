@@ -1,0 +1,25 @@
+
+.container {
+    background-image: url('./overview_bg.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    /* height: 100vh; */
+}
+
+.planet-card-container {
+    flex: 1 0 calc(23% - 20px);
+    height: 45%;
+    padding: 0 10px;
+    margin: 15px 8px;
+}
+
+.planet-card-container .planet-image {
+    padding-top: 10px;
+    height: 100px;
+    width: auto; 
+    display: block;
+    margin: 0 auto; 
+}

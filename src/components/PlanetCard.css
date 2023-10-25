@@ -1,0 +1,48 @@
+.planet-card {
+    min-height: 40.65vh;
+    border: 3px solid rgb(51,160,201);
+    background-color: rgb(193, 211, 250, 0.8);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.planet-card:hover {
+    transform: scale(1.05);
+}
+
+.planet-image {
+    width: 100%;
+    height: auto;
+}
+
+.planet-title {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(0, 37, 245, 0.1);
+}
+
+.planet-description {
+    padding: 0 15px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.planet-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+
+@media (max-width: 713px) {
+    /* Styles pour les tablettes et les téléphones */
+}
+
+@media (min-width: 714px) and (max-width: 1024px) {
+    /* Styles pour les petits écrans d'ordinateur */
+}
+
+@media (min-width: 1025px) {
+    /* Styles pour les grands écrans d'ordinateur */
+}

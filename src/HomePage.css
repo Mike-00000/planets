@@ -1,0 +1,10 @@
+
+.homepage-container {
+    background-image: url('./images/accueil_bg.avif'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh; 
+    margin-top: -22px;
+    color: rgb(51,160,201);
+}

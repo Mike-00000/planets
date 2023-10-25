@@ -1,0 +1,205 @@
+.planet-details-wrapper {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: -200px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 145vh;
+    background-position: center center;
+}
+
+
+.planet-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.details-main {
+    flex: 0 0 calc(23.33% - 20px);  
+    padding: 10px 30px;
+    text-align: center;
+    order: 2;
+    /* margin: 0 50px; */
+}
+
+.side-details {
+    flex: 0 0 calc(23.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left {
+    order: 1;
+}
+
+.right {
+    order: 3;
+}
+
+.bottom-details {
+    order: 4;
+    flex: 0 0 100%;  
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 5px solid rgb(12, 38, 48);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px 30px;
+    margin: 10px;
+    /* width: calc(25% - 20px); */
+    text-align: center;
+    flex: 0 0 calc(23.33% - 20px);
+}
+
+
+@media (max-width: 713px) {
+    .details-main {
+        flex: auto;  
+        /* padding: 10px 30px; */
+        text-align: center;
+        order: 1;
+        /* margin: 0 50px; */
+    }}
+
+    .side-details {
+        flex: 0 0 calc(40.33% - 20px);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .detail-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        border: 5px solid rgb(12, 38, 48);
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.6);
+        /* padding: 10px 30px; */
+        /* margin: 10px; */
+        /* width: calc(25% - 20px); */
+        text-align: center;
+        /* flex: 0 0 calc(13.33%); */
+    }
+
+    .left {
+        order: 2;
+    }
+    
+    .right {
+        order: 3;
+    }
+    
+
+@media (min-width: 714px) and (max-width: 1024px) {
+    .details-main {
+        flex: 0 0 calc(29.33%);  
+        /* padding: 10px 30px; */
+        text-align: center;
+        order: 2;
+        /* margin: 0 50px; */
+    }}
+
+    .side-details {
+        flex: 0 0 calc(25.33% - 20px);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .detail-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        border: 5px solid rgb(12, 38, 48);
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.6);
+        /* padding: 10px 30px; */
+        /* margin: 10px; */
+        /* width: calc(25% - 20px); */
+        text-align: center;
+        flex: 0 0 calc(13.33%);
+    }
+
+@media (min-width: 1025px) {
+
+    .planet-details {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .details-main {
+        flex: 0 0 calc(23.33% - 20px);  
+        padding: 10px 30px;
+        text-align: center;
+        order: 2;
+        margin: 0 50px;
+    }
+    
+    .side-details {
+        flex: 0 0 calc(23.33% - 20px);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .left {
+        order: 1;
+    }
+    
+    .right {
+        order: 3;
+    }
+    
+    .bottom-details {
+        order: 4;
+        flex: 0 0 100%;  
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    
+    .detail-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        border: 5px solid rgb(12, 38, 48);
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 10px 30px;
+        margin: 10px;
+        /* width: calc(25% - 20px); */
+        text-align: center;
+        flex: 0 0 calc(23.33% - 20px);
+    }
+    }
